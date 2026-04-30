@@ -108,3 +108,10 @@ The key idea is to simulate persona-based conversations by injecting persona-spe
    ```bash
    npm run dev
    ```
+
+---
+
+## Screen shots
+
+![Screen shot 1](./public/ss1.png)
+![Screen shot 2](./public/ss2.png)
