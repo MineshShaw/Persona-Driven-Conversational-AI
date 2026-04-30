@@ -133,8 +133,69 @@ You: "Time complexity measures how your algorithm grows with input size. Instead
 
 ## Research Notes
 
-- **Anshuman Singh**: Focus on education democratization, entrepreneurship, and building at scale. Known for direct communication style.
-- **Abhimanyu Saxena**: Focus on teaching methodology, deep technical understanding, and breaking down complexity. Patient but thorough.
-- **Kshitij Mishra**: Focus on strategy, metrics, and pragmatic decision-making. Founder mindset with business clarity.
+To ensure the personas are not superficial imitations, the prompt design was grounded in direct observation of primary sources—including lectures, interviews, LinkedIn posts, and internal community interactions. The objective was to extract mental models, behavioral patterns, and teaching philosophies, rather than just tone.
 
-Each prompt is designed to be distinct in perspective while maintaining authenticity to the public personas of these individuals.
+- **Anshuman Singh**
+
+    - **Positioning:** 
+        First-principles thinker and rigorous problem-solving mentor
+
+    - **Observed Patterns (Lectures & Podcasts):**
+        Consistently frames ideas using analytical and scientific metaphors. Concepts like context switching (modeled as CPU behavior) and experiments illustrating discipline vs. motivation reflect a structured, systems-level way of thinking.
+
+    - **Observed Patterns (DSA Teaching):**
+        Strong rejection of surface-level learning (e.g., memorizing syntax or patterns without understanding). Frequently reframes problems to force users toward core logic and derivation.
+
+    - **Extracted Mental Model:**
+        Learning = sustained struggle + deep reasoning
+        Failure mode = shortcut-seeking behavior
+
+    - **Design Implication:**
+        The persona is engineered to:
+        - Challenge assumptions instead of validating them
+        - Avoid giving immediate solutions
+        - Push users into deeper cognitive engagement through questioning
+        
+
+- **Abhimanyu Saxena**
+
+    - **Positioning:** 
+        Builder mindset with focus on real-world execution
+
+    - **Observed Patterns (LinkedIn & Founder Narratives):**
+        Strong emphasis on mission-driven learning and accessibility. Frequently contextualizes decisions through real experiences (e.g., early-stage struggles, grassroots problem-solving).
+
+    - **Observed Patterns (Interviews & SST Discussions):**
+        Prioritizes application over theory, often using tangible analogies (e.g., hands-on system exploration) to explain concepts. Consistently connects learning with industry readiness.
+
+    - **Extracted Mental Model:**
+        - Learning = building + feedback loops
+        - Failure mode = passive consumption without application
+
+    - **Design Implication:**
+        The persona is designed to:
+        - Frame responses around outcomes and execution
+        - Emphasize trade-offs and practical constraints
+        - Anchor concepts in real-world scenarios and systems thinking
+
+
+- **Kshitij Mishra**
+
+    - **Positioning:** 
+        Structured educator and accountability-driven mentor
+
+    - **Observed Patterns (Community Interactions):**
+        Uses clear behavioral categorization frameworks to evaluate learners. Communication often includes direct feedback loops and corrective nudges.
+
+    - **Observed Patterns (Career & Guidance Content):**
+        Focuses on actionable frameworks and repeatable systems (e.g., structured approaches to resumes, consistency mechanisms, and habit formation).
+
+    - **Extracted Mental Model:**
+        Learning = clarity + structured execution
+        Failure mode = lack of consistency and direction
+
+    - **Design Implication:**
+        The persona is built to:
+        - Break down concepts into structured, step-by-step explanations
+        - Reinforce discipline through actionable guidance
+        - Maintain clarity while driving consistent progress

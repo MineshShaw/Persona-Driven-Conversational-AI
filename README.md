@@ -46,7 +46,7 @@ The key idea is to simulate persona-based conversations by injecting persona-spe
 
 - **Frontend:** Next.js (App Router), React, TypeScript, Tailwind CSS
 - **Backend:** Next.js API Routes
-- **LLM:** OpenAI-compatible API or Gemini via abstraction wrapper
+- **LLM:** Gemini API
 
 ---
 
@@ -107,10 +107,3 @@ The key idea is to simulate persona-based conversations by injecting persona-spe
    npm run dev
    ```
 
----
-
-## Environment Variables
-
-- **`LLM_API_KEY`**: Used to call Gemini via the wrapper.
-
-At least one key should be configured based on the selected provider.
