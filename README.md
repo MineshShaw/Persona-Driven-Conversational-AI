@@ -2,6 +2,8 @@
 
 A persona-driven AI chatbot built for an academic assignment on prompt engineering and LLM integration.
 
+> Deployed Link: https://persona-driven-conversational-ai.vercel.app/
+
 ---
 
 ## Overview
@@ -106,4 +108,3 @@ The key idea is to simulate persona-based conversations by injecting persona-spe
    ```bash
    npm run dev
    ```
-
