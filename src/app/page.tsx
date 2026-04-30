@@ -5,9 +5,15 @@ import { Message } from "./lib/chat";
 import { personaMap, PersonaId } from "./lib/personas";
 import ChatWindow from "./components/ChatWindow";
 import PersonaSwitcher from "./components/PersonaSwitcher";
+import SuggestionChips from "./components/SuggestionChips";
 
 const initialPersona: PersonaId = "anshuman";
 const FALLBACK_ERROR_MESSAGE = "Something went wrong. Please try again.";
+const messageSuggestions = [
+  "How should I start learning DSA effectively?",
+  "Can you explain recursion with a simple example?",
+  "How can I prepare better for coding interviews?",
+];
 
 export default function HomePage() {
   const [selectedPersona, setSelectedPersona] = useState<PersonaId>(initialPersona);
@@ -85,6 +91,12 @@ export default function HomePage() {
       />
 
       <ChatWindow messages={messages} loading={loading} />
+
+      <SuggestionChips
+        suggestions={messageSuggestions}
+        disabled={loading}
+        onSelectSuggestion={(suggestion) => setInput(suggestion)}
+      />
 
       <form
         onSubmit={handleSubmit}
