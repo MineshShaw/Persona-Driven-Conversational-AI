@@ -22,18 +22,8 @@ export default function HomePage() {
   
     setSelectedPersona(nextPersona);
   
-    setMessages((prev) => {
-      if (prev.length === 0) {
-        return [{ role: "system", content: personaMap[nextPersona] }];
-      }
-  
-      const updated = [...prev];
-      updated[0] = {
-        role: "system",
-        content: personaMap[nextPersona],
-      };
-  
-      return updated;
+    setMessages(() => {
+        return [{ role: "system", content: personaMap[nextPersona] }]
     });
   
     setInput("");
